@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="select2.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>2-select</title>
+</head>
+
+
+
+
+<body>
+
+  <div style="width: 600px; background: yellow; margin-bottom: 200px;">
+  <!--  
+    <label for="label-single">
+      Single Element
+
+        <select class="single-select" id="label-single">
+          <option value="사과">사과</option>
+          <option value="바나나">바나나</option>
+          <option value="포도">포도</option>
+        </select>
+
+    </label>
+  -->
+
+        
+        <select class="single-select" style="width: 400px;" id="label-single">
+          <option value="사과">사과</option>
+          <option value="바나나">바나나</option>
+          <option value="포도">포도</option>
+        </select> 
+        
+
+         <select class="multiple-select" multiple="multiple">
+          <option value="토마토"> 토마토 </option>
+          <option value="배추"> 배추 </option>
+          <option value="당근"> 당근 </option>
+        </select>
+
+        <!--
+        <select class="single-placeholder">
+          <option></option>
+        </select> -->
+
+  </div>
+
+
+    <button class="set">Set : 포도</button>
+    <button class="on">on</button>
+    <button class="off">off</button>
+    <button class="destroy">destroy</button>
+    <button class="re">Re-initialize</button>
+
+    <button class="set-two">Set : 포도, 바나나 </button>
+    <button class="clear">Clear</button>
+
+    <script src="jquery-3.6.0.js"></script>
+    <script src="select2.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
